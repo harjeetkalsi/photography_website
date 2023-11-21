@@ -59,7 +59,7 @@ p{
 
   }
 
-  a{
+a{
     color:  #222222;
     text-decoration: none; 
     padding: 6px 8px 6px 16px;
@@ -67,10 +67,28 @@ p{
     display: block;
   }
 
-  a:hover{
+a:hover{
     color: pink;
     text-decoration: none; 
     padding: 6px 8px 6px 16px;
     font-size: 15px;
     display: block;
   }
+
+.content{
+
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 200px; /* Stay at the top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 80px;
+    left: 450px;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: block;
+
+}
